@@ -1,0 +1,17 @@
+ALGORITHM cercule-length
+VAR
+    len: INTEGER;
+    word:STRING;
+     word:=""
+    len:=0;
+    i, j , y:INTEGER
+    nwords:INTEGER:=0
+    voy:INTEGER:=0
+    
+BEGIN
+  i:=1;
+ WHILE (word[i] <> ".") DO
+        i:=i+1
+       len:=i
+ END_WHILE
+ write(len);
